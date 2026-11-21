@@ -1,0 +1,22 @@
+
+# Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.venv/
+
+# Secret files
+.env
+.env.*
+!.env.example
+
+# Database containing personal email drafts
+emails.db
+
+# VS Code
+.vscode/
+
+# Streamlit secrets
+.streamlit/secrets.toml
